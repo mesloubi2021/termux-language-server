@@ -30,7 +30,15 @@ classifiers = [
 # dynamic = ["version", "dependencies", "optional-dependencies"]
 # https://github.com/pypa/twine/issues/753
 dynamic = ["version"]
-dependencies = ["colorama", "jinja2", "platformdirs", "pygls", "tree-sitter"]
+dependencies = [
+  "colorama",
+  "fqdn",
+  "jinja2",
+  "platformdirs",
+  "pygls",
+  "rfc3987",
+  "tree-sitter",
+]
 
 [project.optional-dependencies]
 colorize = ["pygments"]
